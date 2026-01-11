@@ -1,0 +1,14 @@
+C:\Users\karen\Documents\PastaDev\Desafio de Codigo\Validador de Bandeira Cartão de Crédito\bin\Debug\net9.0\Validador de Bandeira Cartão de Crédito.exe
+C:\Users\karen\Documents\PastaDev\Desafio de Codigo\Validador de Bandeira Cartão de Crédito\bin\Debug\net9.0\Validador de Bandeira Cartão de Crédito.deps.json
+C:\Users\karen\Documents\PastaDev\Desafio de Codigo\Validador de Bandeira Cartão de Crédito\bin\Debug\net9.0\Validador de Bandeira Cartão de Crédito.runtimeconfig.json
+C:\Users\karen\Documents\PastaDev\Desafio de Codigo\Validador de Bandeira Cartão de Crédito\bin\Debug\net9.0\Validador de Bandeira Cartão de Crédito.dll
+C:\Users\karen\Documents\PastaDev\Desafio de Codigo\Validador de Bandeira Cartão de Crédito\bin\Debug\net9.0\Validador de Bandeira Cartão de Crédito.pdb
+C:\Users\karen\Documents\PastaDev\Desafio de Codigo\Validador de Bandeira Cartão de Crédito\obj\Debug\net9.0\Validador de Bandeira Cartão de Crédito.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\karen\Documents\PastaDev\Desafio de Codigo\Validador de Bandeira Cartão de Crédito\obj\Debug\net9.0\Validador de Bandeira Cartão de Crédito.AssemblyInfoInputs.cache
+C:\Users\karen\Documents\PastaDev\Desafio de Codigo\Validador de Bandeira Cartão de Crédito\obj\Debug\net9.0\Validador de Bandeira Cartão de Crédito.AssemblyInfo.cs
+C:\Users\karen\Documents\PastaDev\Desafio de Codigo\Validador de Bandeira Cartão de Crédito\obj\Debug\net9.0\Validador de Bandeira Cartão de Crédito.csproj.CoreCompileInputs.cache
+C:\Users\karen\Documents\PastaDev\Desafio de Codigo\Validador de Bandeira Cartão de Crédito\obj\Debug\net9.0\Validador de Bandeira Cartão de Crédito.dll
+C:\Users\karen\Documents\PastaDev\Desafio de Codigo\Validador de Bandeira Cartão de Crédito\obj\Debug\net9.0\refint\Validador de Bandeira Cartão de Crédito.dll
+C:\Users\karen\Documents\PastaDev\Desafio de Codigo\Validador de Bandeira Cartão de Crédito\obj\Debug\net9.0\Validador de Bandeira Cartão de Crédito.pdb
+C:\Users\karen\Documents\PastaDev\Desafio de Codigo\Validador de Bandeira Cartão de Crédito\obj\Debug\net9.0\Validador de Bandeira Cartão de Crédito.genruntimeconfig.cache
+C:\Users\karen\Documents\PastaDev\Desafio de Codigo\Validador de Bandeira Cartão de Crédito\obj\Debug\net9.0\ref\Validador de Bandeira Cartão de Crédito.dll
