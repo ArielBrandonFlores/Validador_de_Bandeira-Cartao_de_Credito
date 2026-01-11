@@ -1,7 +1,4 @@
 # Validador de Bandeira de Cartão de Crédito
-
-Um aplicativo console em C# para validar números de cartões de crédito, identificando a bandeira e verificando a validade usando o algoritmo de Luhn. Suporta múltiplas bandeiras populares, com design modular seguindo os princípios SOLID.
-
 ## Descrição
 
 Este projeto foi desenvolvido como um desafio de codificação para demonstrar habilidades em C#, design orientado a objetos e boas práticas de desenvolvimento. O validador identifica a bandeira do cartão com base no número fornecido e aplica a validação do checksum via algoritmo de Luhn, garantindo que o número seja válido para transações.
