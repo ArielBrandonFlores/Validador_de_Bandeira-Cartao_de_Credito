@@ -1,86 +1,37 @@
 # Validador de Bandeira de Cartão de Crédito
 
-## Visão Geral
+Um aplicativo console em C# para validar números de cartões de crédito, identificando a bandeira e verificando a validade usando o algoritmo de Luhn. Suporta múltiplas bandeiras populares, com design modular seguindo os princípios SOLID.
 
-Aplicação console desenvolvida em **C# (.NET 9.0)** capaz de identificar a bandeira de cartões de crédito e validar sua autenticidade utilizando o **algoritmo de Luhn**.  
-O projeto foi construído com forte ênfase em **arquitetura limpa**, **princípios SOLID** e **extensibilidade**, sendo ideal como projeto de portfólio técnico.
+## Descrição
 
-Este repositório faz parte de um desafio proposto pela DIO, no qual o objetivo é ir além da implementação básica, documentando decisões técnicas e aplicando boas práticas de engenharia de software.
+Este projeto foi desenvolvido como um desafio de codificação para demonstrar habilidades em C#, design orientado a objetos e boas práticas de desenvolvimento. O validador identifica a bandeira do cartão com base no número fornecido e aplica a validação do checksum via algoritmo de Luhn, garantindo que o número seja válido para transações.
 
----
-
-## Contexto do Desafio
-
-A proposta do desafio consiste em **recriar ou evoluir** um projeto base, utilizando o GitHub como plataforma de versionamento e exposição profissional, além do **GitHub Copilot** como assistente de codificação.
-
-### Objetivos de Aprendizagem
-
-Ao concluir este projeto, foram trabalhadas as seguintes competências:
-
-- Reproduzir e evoluir um projeto a partir de código existente  
-- Aplicar conceitos em um cenário prático e realista  
-- Documentar decisões técnicas de forma clara e objetiva  
-- Utilizar o GitHub como vitrine profissional  
-
----
-
-## Descrição Técnica
-
-O sistema identifica a bandeira do cartão com base em **prefixo e comprimento**, aplicando em seguida a validação de checksum por meio do algoritmo de **Luhn**.
-
-A implementação evoluiu de uma solução simples para uma arquitetura mais robusta, utilizando:
-
-- Expressões regulares para detecção eficiente de padrões  
-- Inversão de dependência  
-- Separação clara de responsabilidades  
-- Design preparado para extensão sem modificação de código existente  
-
----
+O código evoluiu de uma implementação inicial simples para uma arquitetura robusta, utilizando Regex para padrões eficientes, injeção de dependência e princípios SOLID para extensibilidade e manutenção.
 
 ## Funcionalidades
 
-- **Identificação Automática de Bandeira**
-- **Validação de Checksum (Algoritmo de Luhn)**
-- **Interface Interativa via Console**
-- **Arquitetura Extensível (SOLID)**
-
-### Bandeiras Suportadas
-
-- Visa (13, 16 ou 19 dígitos)  
-- Mastercard (16 dígitos)  
-- American Express (15 dígitos)  
-- Diners Club (14 dígitos)  
-- Discover (16 dígitos)  
-- EnRoute (15 dígitos)  
-- JCB (16 dígitos)  
-- Voyage (15 dígitos)  
-- HiperCard (16 dígitos)  
-- Aura (16 dígitos)  
-
----
-
-## Diferenciais em Relação ao Projeto Base
-
-- Arquitetura orientada a interfaces  
-- Aplicação completa dos princípios SOLID  
-- Separação entre validação de bandeira e validação de checksum  
-- Código aberto para extensão e fechado para modificação  
-- Estrutura preparada para testes automatizados e futuras integrações  
-
----
+- **Identificação de Bandeira**: Detecta automaticamente a bandeira do cartão (Visa, Mastercard, American Express, etc.) com base no prefixo e comprimento do número.
+- **Validação de Checksum**: Aplica o algoritmo de Luhn para verificar se o número do cartão é válido.
+- **Suporte a Múltiplas Bandeiras**:
+  - Visa (13, 16 ou 19 dígitos)
+  - Mastercard (16 dígitos)
+  - American Express (15 dígitos)
+  - Diners Club (14 dígitos)
+  - Discover (16 dígitos)
+  - EnRoute (15 dígitos)
+  - JCB (16 dígitos)
+  - Voyage (15 dígitos)
+  - HiperCard (16 dígitos)
+  - Aura (16 dígitos)
+- **Interface Interativa**: Permite entrada de números via console para validação em tempo real.
+- **Extensibilidade**: Fácil adição de novas bandeiras sem modificar código existente, graças ao design SOLID.
 
 ## Tecnologias Utilizadas
 
-- **Linguagem**: C#  
-- **Plataforma**: .NET 9.0  
-- **Tipo de Aplicação**: Console Application  
-- **Bibliotecas**: System.Text.RegularExpressions  
-- **Paradigmas**:
-  - Programação Orientada a Objetos  
-  - Princípios SOLID  
-  - Injeção de Dependência  
-
----
+- **Linguagem**: C# (.NET 9.0)
+- **Framework**: .NET Core/Console Application
+- **Bibliotecas**: System.Text.RegularExpressions (para validação de padrões)
+- **Paradigmas**: Programação Orientada a Objetos, Princípios SOLID, Injeção de Dependência
 
 ## Estrutura do Projeto
 
